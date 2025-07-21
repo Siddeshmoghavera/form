@@ -1,0 +1,25 @@
+h2 {
+  text-align: center;
+  color: #3182ce;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+ul {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  list-style: none;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1.1rem;
+  color: #2d3748;
+}

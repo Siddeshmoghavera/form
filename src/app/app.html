@@ -1,0 +1,23 @@
+<h1>Registration Form</h1>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+  <label for="firstname">First Name:</label>
+  <input id="firstname" formControlName="firstname" required>
+  <br>
+  <label for="lastname">Last Name:</label>
+  <input id="lastname" formControlName="lastname" required>
+  <br>
+  <label for="dob">Date of Birth:</label>
+  <input id="dob" formControlName="dob" type="date" required>
+  <br>
+  <label for="age">Age:</label>
+  <input id="age" formControlName="age" type="number" required>
+  <br>
+  <label for="email">Email:</label>
+  <input id="email" formControlName="email" type="email" required>
+  <br>
+  <label for="description">Description:</label>
+  <textarea id="description" formControlName="description"></textarea>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+<router-outlet></router-outlet>
